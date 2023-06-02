@@ -86,7 +86,7 @@ namespace Modules.FlappyBirdModule.Scripts
 
         private void OnDestroy()
         {
-            character.OnObstacleCollided -= RestartGame;
+            if(character != null) character.OnObstacleCollided -= RestartGame;
         }
     }
 }
