@@ -158,28 +158,21 @@ MonoBehaviour:
   - {fileID: 154920355}
   _installerPrefabs: []
   _autoRun: 1
-  <Initialized>k__BackingField: 0
   OnPreInstall:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnPostInstall:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnPreResolve:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   OnPostResolve:
     m_PersistentCalls:
       m_Calls: []
-    m_CallsDirty: 1
   _parentNewObjectsUnderSceneContext: 0
   _contractNames: []
   _parentContractNames: []
-  _hasInstalled: 0
-  _hasResolved: 0
 --- !u!4 &154920354
 Transform:
   m_ObjectHideFlags: 0
