@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Modules/MainModule/Scenes/BootsrtapScene.unity
     guid: a8d7a2ebe27cd774684c703bb40862cc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Modules/MainModule/Scenes/MainMenu.unity
     guid: 6463bd1ec2ea10541accf7e6a4439541
-  - enabled: 0
+  - enabled: 1
     path: Assets/Modules/FlappyBirdModule/Scenes/FlappyBird.unity
     guid: 3a92d2cddc8fb9c4594a94b35e63494d
   m_configObjects: {}
