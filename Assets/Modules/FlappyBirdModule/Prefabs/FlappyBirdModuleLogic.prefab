@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8000167586491827375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8000167586491827373}
+  - component: {fileID: 8000167586491827372}
+  m_Layer: 0
+  m_Name: FlappyBirdModuleLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8000167586491827373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000167586491827375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8000167586951368098}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8000167586491827372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000167586491827375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4635e646fc1f47119fc6f763e49738f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flappyBirdModuleUI: {fileID: 8000167586951368101}
+  gameScene: FlappyBird
+  characterPrefab: {fileID: 4069741201783490610, guid: ef42171ac43ba56469ae44976f4ea1df, type: 3}
+  playerCameraPrefab: {fileID: 3843324314197251690, guid: 2c08ba6cc7b1b4d469b93dd22db7dd8a, type: 3}
+  obstacleSpawnerPrefab: {fileID: 5199106965913188094, guid: 5ac57903deb5d144c9868d29f9b7d888, type: 3}
+--- !u!1001 &7260430512918705675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8000167586491827373}
+    m_Modifications:
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 847931397757320111, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+      propertyPath: m_Name
+      value: FlappyBirdModuleUI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+--- !u!4 &8000167586951368098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 847931397757320105, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+  m_PrefabInstance: {fileID: 7260430512918705675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8000167586951368101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 847931397757320110, guid: 2c285c0e31934074cb2203f5c531216a, type: 3}
+  m_PrefabInstance: {fileID: 7260430512918705675}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b821ae97d549409f12ecb20f139fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
